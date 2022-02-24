@@ -12,7 +12,7 @@ import { Provider } from "react-redux";
 const store = createStore(contactReducer);
 
 ReactDOM.render(
-  <Provider store={store}>
+  <Provider className="bgColor" store={store}>
     <Router>
       <App />
     </Router>
