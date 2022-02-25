@@ -140,25 +140,31 @@ const Home = () => {
               <h5 className="box_plan_h5">Your Plan: Standard</h5>
             </div>
             <div className="box_active_user">
-              <button className="box_active_user_btn">Active User</button>
+              <button className="box_active_user_btn">
+                <b>Active User</b>
+              </button>
             </div>
             <div>
-              <h6 className="box_active_user_plan">Plan uses</h6>
+              <h6 className="box_active_user_plan ">Plan Uses</h6>
               <div className="pro_bar_div">
                 <div className="main-bar">
                   <div className="second-bar progress"></div>
                 </div>
               </div>
             </div>
-            <div className="row">
+            <div className="row mx-3 mt-3">
               <div className="col click_review ">
-                <h4>2250</h4>
-                <p>Clicks reviewed</p>
+                <h4>
+                  <b>2,250</b>
+                </h4>
+                <p className="click_review_p">Clicks reviewed</p>
               </div>
 
               <div className="col month_click ">
-                <h4>50000</h4>
-                <p>Monthly clicks</p>
+                <h4>
+                  <b>5000</b>
+                </h4>
+                <p className="click_review_p">Monthly clicks</p>
               </div>
             </div>
           </div>
