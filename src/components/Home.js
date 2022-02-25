@@ -28,13 +28,13 @@ const Home = () => {
 
   return (
     <div className="container ">
-      <div className="row">
+      <div className="row ">
         <div className="col-md-12 my-5  text-right">
           <Link to="/add" className="btn btn-outline-dark">
             Add Contact
           </Link>
         </div>
-        <div className="col-md-12 mx-auto ">
+        <div className="col-md-10  parent_div ">
           <div className="col-md-11 ">
             <div className="col-md-12 shadow main_div ">
               <div className="col-md-10  ">

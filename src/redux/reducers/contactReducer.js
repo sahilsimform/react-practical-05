@@ -41,6 +41,13 @@ const initialState = [
     status: "inactive",
     access: "read",
   },
+  {
+    id: 6,
+    name: "Vaibhav Singh",
+    email: "test1@test.com",
+    status: "inactive",
+    access: "read",
+  },
 ];
 
 const contactReducer = (state = initialState, action) => {

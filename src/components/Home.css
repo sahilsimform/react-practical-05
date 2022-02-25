@@ -1,21 +1,31 @@
 .main_div {
   background-color: #fff;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
+.parent_div {
+  /* border: 1px solid red; */
+  display: flex;
+  overflow-x: hidden;
+}
 .box_main {
   height: 25rem;
   width: 20rem !important;
-  float: right;
-  z-index: 100;
-  position: sticky;
+  /* float: right; */
+  z-index: 1;
+  /* position: sticky; */
   background-color: #fff;
   border-radius: 25px;
+
   /* /// */
-  position: fixed;
-  bottom: 10rem;
+  /* position: fixed; */
+  position: absolute;
+
+  /* bottom: 10rem; */
   /* left: 90rem; */
-  right: 80px;
+  /* right: 90px; */
+  margin-top: 80px;
+  margin-left: 789px;
   text-align: center;
 }
 
@@ -215,4 +225,16 @@ img {
   display: inline-block;
   margin-bottom: 8px;
   margin-left: 4px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .box_main {
+    margin-left: 589px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .box_main {
+    margin-left: 489px;
+  }
 }
